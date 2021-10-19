@@ -1,9 +1,15 @@
 import React from 'react'
 import {StyledHeader} from './styles/Header.styled'
+import {Container} from './styles/container.styled'
 function Header() {
     return (
         <StyledHeader>
-            <h1>Hubble</h1>
+            <Container>
+            <Nav>
+                <Logo src='./images/logo.svg' alt='logo'/>
+                <Button>Try it Free</Button>
+            </Nav>
+            </Container>
         </StyledHeader>
     )
 }
