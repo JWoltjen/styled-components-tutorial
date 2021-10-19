@@ -1,6 +1,8 @@
 import React from 'react'
-import {StyledHeader} from './styles/Header.styled'
+import {StyledHeader, Nav, Logo} from './styles/Header.styled'
 import {Container} from './styles/container.styled'
+import {Button} from './styles/Button.styled'
+
 function Header() {
     return (
         <StyledHeader>

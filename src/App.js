@@ -6,22 +6,22 @@ import GlobalStyles from './components/styles/Global'
 
 const theme = {
   colors: {
-    header: `#ebfbff`, 
-    body: `#fff`,
-    footer: `#003333`,
+    header: '#ebfbff',
+    body: '#fff',
+    footer: '#003333',
   },
 }
 
 function App() {
   return (
     <ThemeProvider theme = {theme}>
-    <>
-    <GlobalStyles />
-    <Header />
-    <Container>
-      <h1>Hello World</h1>
-    </Container>
-    </>
+      <>
+          <GlobalStyles />
+          <Header />
+          <Container>
+            <h1>Hello World</h1>
+          </Container>
+      </>
     </ThemeProvider>
   );
 }
