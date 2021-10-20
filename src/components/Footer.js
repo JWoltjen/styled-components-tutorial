@@ -1,13 +1,13 @@
 import React from 'react'
 import {Container} from './styles/container.styled'
 import {Flex} from './styles/Flex.styled'
+import {StyledFooter} from './styles/Footer.styled'
 
 function Footer() {
     return (
-        <div>
+        <StyledFooter>
             <Container>
                 <img src='./images/logo_white.svg' alt="" />
-
                 <Flex>
                     <ul>
                         <li>
@@ -24,8 +24,11 @@ function Footer() {
                         <li>FAQ</li>
                     </ul>
                 </Flex>
+                <p>
+                    &copy; 2021 Huddle. All rights reserved
+                </p>
             </Container> 
-        </div>
+       </StyledFooter>
     )
 }
 
